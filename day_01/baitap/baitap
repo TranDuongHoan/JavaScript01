@@ -1,0 +1,23 @@
+//bai 1:
+function calculateFactorial(number) {
+    if (number === 0 || number === 1) {
+      return 1;
+    } else {
+      return number * calculateFactorial(number - 1);
+    }
+  }
+
+  //bai 3:
+  function translate(countryCode) {
+    switch (countryCode) {
+      case 'VN':
+        return 'Xin chào';
+      case 'EN':
+        return 'Hello';      
+      default:
+        return 'Xin chào';
+    }
+  }
+
+  //bai 4:
+
