@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .active {
+        color: red;
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>TodoList Application</h2>
+
+    <input type="text" placeholder="Enter todo ..." id="input-todo" />
+    <button id="btn-add">ADD</button>
+
+    <ul id="todo-list">
+      <li>
+        <input type="checkbox" checked />
+        <span class="active">Todo 1</span>
+        <button>EDIT</button>
+        <button>DELETE</button>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <span>Todo 2</span>
+        <button>EDIT</button>
+        <button>DELETE</button>
+      </li>
+      <li>
+        <input type="checkbox" checked />
+        <span class="active">Todo 3</span>
+        <button>EDIT</button>
+        <button>DELETE</button>
+      </li>
+    </ul>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

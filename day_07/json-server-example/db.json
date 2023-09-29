@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post title 1",
+      "author": "typicode",
+      "view": 3000
+    },
+    {
+      "id": 2,
+      "title": "Post title 2",
+      "author": "typicode",
+      "view": 2000
+    },
+    {
+      "id": 3,
+      "title": "Post title 3",
+      "author": "admin",
+      "view": 6000
+    },
+    {
+      "id": 4,
+      "title": "Post title 4",
+      "author": "typicode",
+      "view": 4000
+    },
+    {
+      "title": "Lap trinh JavaScript",
+      "author": "Jack 5 cu",
+      "id": 6,
+      "view": 5000
+    }
+  ],
+  "todos": [
+    {
+      "title": "Đi học",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Đi làm",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "Đi chợ",
+      "completed": false,
+      "id": 4
+    }
+  ]
+}

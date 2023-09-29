@@ -7,9 +7,11 @@ const select = document.getElementById('select');
 
 const getBreedList = async () => {
         try {
-            const response = await axios.get("https://dog.ceo/api/breeds/list/all");
-            const breeds = response.data.message;
+            let response = await axios.get("https://dog.ceo/api/breeds/list/all");
+            let breeds = response.data.message;
             renderBreed(breeds);
+            let res = await fetch("https://dog.ceo/api/breeds/image/random");
+            console.log(res);
           } catch (error) {
             console.log(error);
         }   
